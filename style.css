@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.card{
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 30px;
+    
+}
+
+.card .card-container{
+    color: blueviolet;
+}
+
+.card img{
+    height:200px ;
+    width: 200px;
+}
+
+.card .card-container button{
+    height: 25px;
+    background-color: white;
+   
+}
